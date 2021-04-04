@@ -1,0 +1,10 @@
+package com.example.rbprocessor.model;
+
+public enum ResultStatus {
+    INCORRECT_END_BALANCE,
+    DUPLICATE_REFERENCE,
+    DUPLICATE_REFERENCE_INCORRECT_END_BALANCE,
+    SUCCESSFUL,
+    INTERNAL_SERVER_ERROR,
+    BAD_REQUEST
+}
